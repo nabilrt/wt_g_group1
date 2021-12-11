@@ -116,10 +116,10 @@ include '../header.php';
 
 
                 <label><b>Owner ID</b></label><br>
-                <input type="text" name="owner_id" id="rid" class="form-control"><br>
+                <input type="text" name="owner_id" id="rid" class="form-control" readonly><br>
 
                 <label><b>Rent Amount</b></label><br>
-                <input type="text" name="r_amount" id="r_amount" class="form-control"><br>
+                <input type="text" name="r_amount" id="r_amount" class="form-control" readonly><br>
 
                 <label><b>Which month do you want to give rent</b></label><br>
 
@@ -179,6 +179,15 @@ include '../header.php';
     include "footer.php";
     ?>
     <script>
+
+        $(document).ready(function() {
+
+            $("#rid").attr("readonly", true);
+            $("#r_amount").prop("readonly", true);
+
+        })
+
+
         function rentvalidation() {
             var rNoError = "";
 

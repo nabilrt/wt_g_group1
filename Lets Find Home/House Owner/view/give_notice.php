@@ -102,7 +102,7 @@ include 'new_header.php';
                     </select>
                     <span id="noticeIDErr" style="color:red"></span><br>
                     <label>Renter ID</label><br>
-                    <input type="text" name="rid" id="rid" onkeyup="return renter_id_validate()" onblur="return renter_id_validate()" value="" class="form-control"><span id="renterIDErr" style="color:red">
+                    <input type="text" name="rid" id="rid" onkeyup="return renter_id_validate()" onblur="return renter_id_validate()" value="" class="form-control" readonly><span id="renterIDErr" style="color:red">
                         <?php
                         if ($renterIDErr != "") {
                             echo $renterIDErr;
