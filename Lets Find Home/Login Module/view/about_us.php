@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="col">
-                <span style="font-size:25px; color:#ed213a; text-align:center; font-family: 'Poppins', sans-serif;">Admin</span>
+                <span style="font-size:25px; color:silver; text-align:center; font-family: 'Poppins', sans-serif;">Admin</span>
                 <div class="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="..." id="adi">
                     <div class="card-body">
